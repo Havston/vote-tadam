@@ -265,5 +265,12 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
   </script>
+  <script>
+const burger = document.getElementById('burger');
+const navLinks = document.querySelector('.nav-links');
+burger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+</script>
 </body>
 </html>
