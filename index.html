@@ -310,38 +310,34 @@
 
   <!-- Хедер -->
   <header>
-    <nav>
-      <!-- Логотип слева -->
-      <a href="#top" class="logo-btn">
-        <img src="logo.png" alt="Лицей 165" />
-      </a>
-
-      <!-- Навигация -->
-      <ul>
-        <li>
-          <a href="#">Информация ▾</a>
-          <div class="dropdown-content">
-            <a href="#who">Кто мы?</a>
-            <a href="#goal">Что мы хотим?</a>
-            <a href="#plans">Наши планы</a>
-          </div>
-        </li>
-        <li>
-          <a href="#">О команде ▾</a>
-          <div class="dropdown-content">
-            <a href="team-cards/team-timur.html">Тимур</a>
-            <a href="team-cards/team-tair.html">Таир</a>
-            <a href="team-cards/team-asel.html">Асель (кандидат)</a>
-            <a href="team-cards/team-daniil.html">Даниил</a>
-            <a href="team-cards/team-aisultan.html">Айсултан</a>
-            <a href="team-cards/team-maxim.html">Максим</a>
-            <a href="team-cards/team-safira.html">Сафира</a>
-          </div>
-        </li>
-        <li><a href="#" onclick="openModal()">Контакты</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav>
+    <a href="../index.html" class="logo-btn">
+      <img src="logo.png" alt="Лицей 165">
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html#who">Информация</a></li>
+      <li>
+        <a href="#">О команде ▾</a>
+        <div class="dropdown-content">
+          <a href="team-timur.html">Тимур</a>
+          <a href="team-tair.html">Таир</a>
+          <a href="team-asel.html">Асель (кандидат)</a>
+          <a href="team-daniil.html">Даниил</a>
+          <a href="team-aisultan.html">Айсултан</a>
+          <a href="team-maxim.html">Максим</a>
+          <a href="team-safira.html">Сафира</a>
+        </div>
+      </li>
+      <li><a href="../index.html#goal">Цели</a></li>
+      <li><a href="../index.html#plans">Планы</a></li>
+    </ul>
+    <div class="burger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+</header>
 
   <!-- Hero -->
   <section id="top" class="hero">
